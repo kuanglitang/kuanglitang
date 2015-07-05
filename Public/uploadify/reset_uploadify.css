@@ -1,0 +1,18 @@
+#cid, .upload-wrap{
+    display:none;
+}
+.uploadify-queue-item{
+    max-width: 500px;border:1px solid #ccc;
+}
+.cancel a{
+    margin-top: 5px;margin-right: 5px;
+}
+.file-name{
+    margin-top:0;border: 1px solid #ccc;border-radius: 5px;background:white;padding:5px;
+}
+.img-wrap{
+    padding: 10px;text-align: center;background: white;margin-top: 10px;border:1px solid #ccc;
+}
+.img-wrap img{
+    max-width: 100%;
+}

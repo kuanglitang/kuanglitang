@@ -1,1 +1,1 @@
-<?php if (!defined('THINK_PATH')) exit();?>hello kuang
+<?php if (!defined('THINK_PATH')) exit();?>hello kuang freedom
