@@ -209,11 +209,11 @@ function getpage($count, $pagesize = 10) {
     vendor("phpqrcode.phpqrcode");
     $QRcode = new \QRcode ();
     $level = 'L';
-    $size = 4;
+    $size = 6;
     $margin= 0;
     $path="/Uploads/code/".md5(microtime()).".jpg";
     $filename ='.'.$path;
-    $QRcode::png($url, $filename, $level, $size, $margin);
+    $QRcode::png($url, $filename, $level, $size, $margin);  
     // $path=code_tie($path);
     return $path;
   }

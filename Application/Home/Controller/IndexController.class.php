@@ -28,8 +28,8 @@ class IndexController extends Controller {
 
     public function createcode(){
         $url="http://www.kuanglitang.com/";
-        $part=codeimg($rul);
-        dump($part);die;
+        $part=codeimg($url);
+        dump($part);
     }
 
 }
